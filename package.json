@@ -1,0 +1,16 @@
+{
+  "name": "fa-issue-dashboard",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@earendil-works/pi-ai": "1.0.4"
+  },
+  "version": "0.0.0",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "test": "node --test tests/model-config.test.mjs tests/model-connections.test.mjs tests/release-discovery.test.mjs",
+    "test:service": "node --test tests/local-service.test.mjs"
+  }
+}
